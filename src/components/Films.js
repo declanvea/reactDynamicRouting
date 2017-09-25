@@ -17,6 +17,7 @@ class List extends Component {
           {/*
             Add Link to '/details/' + endpoint
             */}
+            <Link to={`/details/${endpoint}`}>{endpoint}</Link>
         </li>
       })
       let starships = films.starships.map((starships) => {
@@ -25,6 +26,7 @@ class List extends Component {
           {/*
             Add Link to '/details/' + endpoint
             */}
+            <Link to={`/details/${endpoint}`}>{endpoint}</Link>
         </li>
       })
 

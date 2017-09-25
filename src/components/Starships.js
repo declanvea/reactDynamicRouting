@@ -14,6 +14,7 @@ class List extends Component {
           {/*
             Add Link to '/details/' + endpoint
             */}
+            <Link to={`/details/${endpoint}`}>{endpoint}</Link>
           </li>
       })
       return (
